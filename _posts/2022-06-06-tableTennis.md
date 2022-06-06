@@ -3,7 +3,7 @@ layout: post
 title:  "Table Tennis"
 tag: stage
 image: /uploads/album/stage/tabletennis.jpg
-caption: "Table Tennis"
+caption: "Need to unwind? Game of Table Tennis anyone?"
 ---
 
 ![](/uploads/album/stage/tabletennis.jpg)
