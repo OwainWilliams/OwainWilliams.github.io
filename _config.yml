@@ -1,1 +1,21 @@
 theme: jekyll-theme-cayman
+
+# Setup
+title:        The Secret Stage
+tagline:      A Lego version of Umbraco Codegarden
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       Owain Williams
+  url:        http://owain.codes 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+
+#Others
+markdown: kramdown

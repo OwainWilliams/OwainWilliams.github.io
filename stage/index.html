@@ -3,54 +3,40 @@
 ---
 
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Attendees | The Secret Stage</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="The Stage" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="The Secret Stage is a Lego based Umbraco Codegarden Stage built by Owain Williams, an Umbraco MVP and Lego fan" />
-<meta property="og:description" content="The Secret Stage is a Lego based Umbraco Codegarden Stage built by Owain Williams, an Umbraco MVP and Lego fan" />
-<link rel="canonical" href="http://localhost:4000/stage/" />
-<meta property="og:url" content="http://localhost:4000/stage/" />
-<meta property="og:site_name" content="The Secret Stage" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="The Stage" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"The Secret Stage is a Lego based Umbraco Codegarden Stage built by Owain Williams, an Umbraco MVP and Lego fan","headline":"Attendees","url":"http://localhost:4000/attendees/"}</script>
-<!-- End Jekyll SEO tag -->
-
-<script type="text/javascript" src="/assets/js/lightbox.js"></script>
-<link rel="stylesheet" href="/assets/css/lightbox.css">
-
-
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="The Secret Stage" /></head>
-<body>{% include header.html %}
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">The Stage</h1>
-  </header>
-
-  <div class="post-content">
+<html lang="en">
+  {% include head.html %}
+</head>
+<body>
   
-<p>This is where the fun happens! Come back soon!</p>
+  {% include page-header.html %}
 
-{% include stage-gallery.html folder="/uploads/stage" %}
-  </div>
+  <section class="main-content">
+    <h1 class="post-title">The Stage</h1>
 
-</article>
+    <ul>
+      {% for post in site.posts %}
+        {% if post.tags contains "stage"%}
+        {% include page-image.html %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        
+        {% endif %}
 
-      </div>
-    </main>
-    
-    {% include footer.html %}
-  </div>
+         
+      {% endfor %}
+     
+        <p>Coming soon!</p>
+        
+    </ul>
+
+  
+
+
+
+    {% include page-footer.html %}
+</section>
+
 </body>
 
 </html>

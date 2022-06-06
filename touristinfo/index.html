@@ -1,0 +1,35 @@
+---
+# this is an empty front matter
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+</head>
+<body>{% include header.html %}
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Tourist Information</h1>
+  </header>
+
+  <div class="post-content">
+  
+<p>Is this your first visit to DevTown? We have some useful information available for you so that you can make the most of your stay.</p>
+
+{% include stage-gallery.html folder="/uploads/stage" %}
+  </div>
+
+</article>
+
+      </div>
+    </main>
+    
+    {% include footer.html %}
+  </div>
+</body>
+
+</html>

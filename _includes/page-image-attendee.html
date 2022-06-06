@@ -1,0 +1,18 @@
+{% if post.image %}
+  {% assign page_image = post.image.path | default: post.image %}
+  {% unless page_image contains '://' %}
+    {% assign page_image = page_image | relative_url %}
+  {% endunless %}
+  {% assign page_image = page_image | escape %}
+  <a href="{{post.url}}">
+  <div class="gallery">
+   
+    <img src="{{ page_image }}" class="entry-feature-image u-photo" alt="{{ post.title }}" {% unless site.logo %}style="margin-top: 0;"{% endunless %}>
+    
+  
+  {% if post.caption %}
+      <div class="desc">{{ post.caption | markdownify }}</div>
+    {% endif %}
+  </div>
+</a>
+{% endif %}
