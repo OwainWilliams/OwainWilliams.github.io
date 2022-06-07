@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Car lSargunar"
+title:  "Carl Sargunar"
 tag: attendee
 image: /uploads/album/CarlSargunar.jpg
 caption: "Carl Sargunar"
