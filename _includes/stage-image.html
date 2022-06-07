@@ -6,8 +6,8 @@
   {% assign page_image = page_image | escape %}
 
 
-  <img src="//images.weserv.nl/?url={{page_image}}&w=100&h=80" class="card__image" />
 
+<img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page_image | relative_url }}&w=100&h=80&output=jpg&q=50&t=square" alt="{{ filename }}" title="{{ filename }}" class="card_image" />
  
 {% endif %}
 
