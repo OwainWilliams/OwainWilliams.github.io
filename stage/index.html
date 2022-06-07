@@ -6,7 +6,9 @@ https://codepen.io/HenrikFricke/pen/GRNYrXK
 -->
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+  <link rel="stylesheet" href="/css/blogcard.css" />  
+{% include head.html %}
+  
 </head>
 <body>
   
@@ -17,22 +19,26 @@ https://codepen.io/HenrikFricke/pen/GRNYrXK
 <p>
   Find out what is happening at The Secret Stage and also behind the scenes! There will be daily updates posted here on the run up to and during <a href="https://codegarden.umbraco.com/" target="_blank">Umbraco Codegarden</a>
     </p>
-    <ul>
+    
       {% for post in site.posts %}
         {% if post.tags contains "stage"%}
-        {% include page-image.html %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <p>
-            {{post.caption}}
-          </p>
-        </li>
+        
+      <a href="{{ post.Url }}">
+        <div class="card">
+        {% include stage-image.html %}
+          <div class="card__content">
+            <time datetime="{{ post.date }}" class="card__date">{{ post.date | date: "%-d %B %Y"}}</time>
+            <span class="card__title">{{post.caption}}<span>
+            
+          </div>
+        </div>
+      </a>
         
         {% endif %}
 
          
       {% endfor %}
-    </ul>
+    
 
   
 
