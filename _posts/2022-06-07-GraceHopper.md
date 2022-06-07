@@ -14,4 +14,4 @@ Grace Brewster Murray Hopper (née Murray; December 9, 1906 – January 1, 1992)
 [Wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper)
 
 ###
-Special thanks to [Minifigs.me](https://minifigs.me/products/custom-design-grace-hopper-minifigure) for buying Grace Hooper a ticket to #theSecretStage
+Special thanks to [Minifigs.me](https://minifigs.me/products/custom-design-grace-hopper-minifigure) for buying Grace Hopper a ticket to #theSecretStage
