@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Grace Hooper"
+title:  "Grace Hopper"
 tag: attendee
 image: /uploads/album/GraceHooper.jpg
-caption: "Grace Hooper"
+caption: "Grace Hopper"
 ---
 
 ![](/uploads/album/GraceHooper.jpg)
-# Grace Hooper
+# Grace Hopper
 
 Grace Brewster Murray Hopper (née Murray; December 9, 1906 – January 1, 1992) was an American computer scientist and United States Navy rear admiral.[1] One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the first linkers. Hopper was the first to devise the theory of machine-independent programming languages, and the FLOW-MATIC programming language she created using this theory was later extended to create COBOL, an early high-level programming language still in use today.
 
