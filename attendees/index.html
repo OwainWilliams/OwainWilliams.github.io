@@ -11,43 +11,62 @@
       float: left;
       width: 180px;
     }
-    
+
     div.gallery:hover {
       border: 1px solid #777;
     }
-    
+
     div.gallery img {
-      width: 100%;
+      display: block;
+      max-width: 100%;
       height: auto;
     }
-    
+
     div.desc {
       text-align: center;
+      padding: 4px;
     }
+
+    div.desc p {
+      margin: 0;
+    }
+
+    @supports (display: grid) {
+        .attendee-list {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          gap: 8px;
+        }
+
+        div.gallery {
+          width: auto;
+          margin: 0;
+        }
+
+    }
+
     </style>
 
   {% include head.html %}
 </head>
 <body>
-  
+
   {% include page-header.html %}
 
   <section class="main-content">
     <h1 class="post-title">Attendees</h1>
-<p>
-    If you would like to update your profile - Pull requests are welcomed via <a href="https://github.com/OwainWilliams/OwainWilliams.github.io">Github</a>
-  </p>
+    <p>
+      If you would like to update your profile - Pull requests are welcomed via <a href="https://github.com/OwainWilliams/OwainWilliams.github.io">Github</a>
+    </p>
+    <div class="attendee-list">
       {% for post in site.posts %}
         {% if post.tags contains "attendee"%}
         {% include page-image-attendee.html %}
         {% endif %}
       {% endfor %}
-   
-  
+    </div>
 
-
-
-      {% include page-footer.html %}   
+    {% include page-footer.html %}
 </section>
 
 </body>
