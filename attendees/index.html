@@ -11,19 +11,40 @@
       float: left;
       width: 180px;
     }
-    
+
     div.gallery:hover {
       border: 1px solid #777;
     }
-    
+
     div.gallery img {
-      width: 100%;
+      display: block;
+      max-width: 100%;
       height: auto;
     }
-    
+
     div.desc {
       text-align: center;
+      padding: 4px;
     }
+
+    div.desc p {
+      margin: 0;
+    }
+
+    @supports (display: grid) {
+        .attendee-list {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          gap: 8px;
+        }
+
+        div.gallery {
+          width: auto;
+          margin: 0;
+        }
+
+    }
+
     </style>
 
   {% include head.html %}
