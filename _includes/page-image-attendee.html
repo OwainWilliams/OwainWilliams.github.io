@@ -10,7 +10,7 @@
     <img src="{{ page_image }}" class="entry-feature-image u-photo" alt="{{ post.title }}" {% unless site.logo %}style="margin-top: 0;"{% endunless %}>
     
   
-  {% if post.caption %}
+  {% if post.title %}
       <div class="desc">{{ post.title | markdownify }}</div>
     {% endif %}
   </div>
