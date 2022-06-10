@@ -2,7 +2,7 @@
 layout: post
 title:  "Ravi Motha"
 tag: attendee
-image: /uploads/album/ravimotha.jpg
+image: /uploads/album/raviMotha.jpg
 twitter: ravimotha
 
 ---
