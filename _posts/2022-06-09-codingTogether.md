@@ -5,7 +5,7 @@ tag: stage
 image: /uploads/album/stage/carllaylaDiner.jpg
 caption: "Coding together"
 ---
-# {{page.title}}
+
 ![]({{page.image}})
 
 

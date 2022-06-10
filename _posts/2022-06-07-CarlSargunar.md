@@ -7,7 +7,7 @@ caption: "Carl Sargunar"
 ---
 
 ![](/uploads/album/CarlSargunar.jpg)
-# Carl Sargunar
+
 
 Hey, friends 👋
 

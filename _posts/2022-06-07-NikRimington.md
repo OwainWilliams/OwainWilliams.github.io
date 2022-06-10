@@ -7,6 +7,5 @@ caption: "Nik Rimington"
 ---
 
 ![](/uploads/album/NikRimington.jpg)
-# Nik Rimington
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/HotChilliCode.svg?style=social&label=Follow%20%40HotChilliCode)](https://twitter.com/HotChilliCode)
