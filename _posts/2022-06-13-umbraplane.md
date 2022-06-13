@@ -2,7 +2,7 @@
 layout: post
 title:  "Umbraco Airways is now boarding"
 tag: stage
-image: /uploads/album/umbracoAirways.jpg
+image: /uploads/album/stage/umbracoAirways.jpg
 caption: "Umbraco Airways is now boarding"
 
 
