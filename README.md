@@ -24,14 +24,14 @@ Visit the site at https://thesecretstage.vip
 | Michael Latouche     |          |
 | Nik Rimington        |     1    |
 | Owain Jones          |     1    |
-| Dominic Midlane      |          |
-| Erica Quessenberry   |          |
-| Jan Skovgaard        |          |
+| Dominic Midlane      |     1    |
+| Erica Quessenberry   |     1    |
+| Jan Skovgaard        |     1    |
 | Janae Cram           |          |
 | Matt Brailsford      |          |
-| Paul Seal            |          |
-| Trine Nissen         |          |
-| Warren Buckley       |          |
+| Paul Seal            |     1    |
+| Trine Nissen         |     1    |
+| Warren Buckley       |     1    |
 | Kim Sneum Madsen     |          |
 | Dave Emmett          |          |
 | Corne Hoskam         |   1      |
