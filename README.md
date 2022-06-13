@@ -32,4 +32,15 @@ Visit the site at https://thesecretstage.vip
 | Paul Seal            |          |
 | Trine Nissen         |          |
 | Warren Buckley       |          |
+| Kim Sneum Madsen     |          |
+| Dave Emmett          |          |
+| Corne Hoskam         |   1      |
+| Chriztian Steinmeier |   1      |
+| Ravi Motha           |          |
+| Rachel Breeze        |   1      |
+| Poornima Nayar       |          |
+| Joe Glomkek          |          |
+| Dan Lister           |          |
+| Arnold Visser        |          |
+
 
