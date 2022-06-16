@@ -4,6 +4,7 @@ title:  "Table Tennis"
 tag: stage
 image: /uploads/album/stage/tabletennis.jpg
 caption: "Need to unwind? Game of Table Tennis anyone?"
+order: 1
 ---
 
 ![](/uploads/album/stage/tabletennis.jpg)

@@ -4,6 +4,7 @@ title:  "Game of Pool"
 tag: stage
 image: /uploads/album/stage/pool.jpg
 caption: "How about a game of pool?"
+order: 2
 ---
 
 ![](/uploads/album/stage/pool.jpg)

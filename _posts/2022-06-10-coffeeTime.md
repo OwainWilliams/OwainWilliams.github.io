@@ -4,6 +4,7 @@ title:  "Morning Coffee"
 tag: stage
 image: /uploads/album/stage/coffeetime.jpg
 caption: "Morning Coffee"
+order: 6
 ---
 
 ![]({{page.image}})

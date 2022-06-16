@@ -19,8 +19,8 @@ https://codepen.io/HenrikFricke/pen/GRNYrXK
 <p>
   Find out what is happening at The Secret Stage and also behind the scenes! There will be daily updates posted here on the run up to and during <a href="https://codegarden.umbraco.com/" target="_blank">Umbraco Codegarden</a>
     </p>
-    
-      {% for post in site.posts %}
+    {% assign orderedPosts = site.posts | sort: 'order' %}
+      {% for post in orderedPosts reversed %}
         {% if post.tags contains "stage"%}
         
       <a href="{{ post.url }}">

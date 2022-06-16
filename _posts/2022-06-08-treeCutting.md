@@ -4,6 +4,7 @@ title:  "Timber!"
 tag: stage
 image: /uploads/album/stage/treeCutting.jpg
 caption: "Timber!!"
+order: 4
 ---
 ![](/uploads/album/stage/treeCutting.jpg)
 

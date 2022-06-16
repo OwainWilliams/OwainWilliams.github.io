@@ -4,6 +4,7 @@ title:  "Coding together"
 tag: stage
 image: /uploads/album/stage/carllaylaDiner.jpg
 caption: "Coding together"
+order: 5
 ---
 
 ![]({{page.image}})

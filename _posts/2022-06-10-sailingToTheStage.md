@@ -4,6 +4,7 @@ title:  "Sailing to the Secret Stage"
 tag: stage
 image: /uploads/album/stage/sailingtothestage.jpg
 caption: "Sailing to the Secret Stage"
+order: 7
 ---
 
 ![]({{page.image}})
