@@ -190,3 +190,13 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+    .row {
+  display: flex;
+}
+
+.col {
+  flex: 33.33%;
+  padding: 5px;
+}
+    
