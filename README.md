@@ -9,6 +9,6 @@ Visit the site at https://thesecretstage.vip
 - Ravi Motha
 - Jan Skovgaard
 
-#Umbraco Together
+## Umbraco Together
 
 - Andy Boot
