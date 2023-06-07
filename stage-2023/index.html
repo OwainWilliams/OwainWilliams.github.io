@@ -1,0 +1,52 @@
+---
+# this is an empty front matter
+---
+<!-- 
+https://codepen.io/HenrikFricke/pen/GRNYrXK
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="/css/blogcard.css" />  
+{% include head.html %}
+  
+</head>
+<body>
+  
+  {% include page-header.html %}
+
+  <section class="main-content">
+    <h1 class="post-title">The Stage - 2023</h1>
+<p>
+  Find out what is happening at The Secret Stage and also behind the scenes! There will be daily updates posted here on the run up to and during <a href="https://codegarden.umbraco.com/" target="_blank">Umbraco Codegarden</a>
+    </p>
+    {% assign orderedPosts = site.posts | sort: 'order' %}
+      {% for post in orderedPosts reversed %}
+        {% if post.tags contains "stage-2023"%}
+        
+      <a href="{{ post.url }}">
+        <div class="card">
+        {% include stage-image.html %}
+          <div class="card__content">
+            <time datetime="{{ post.date }}" class="card__date">{{ post.date | date: "%-d %B %Y"}}</time>
+            <span class="card__title">{{post.caption}}<span>
+            
+          </div>
+        </div>
+      </a>
+        
+        {% endif %}
+
+         
+      {% endfor %}
+    
+
+  
+
+
+
+    {% include page-footer.html %}
+</section>
+
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2023 Group Photo"
-tag: stage
+tag: stage-2023
 image: /uploads/album/stage/2023/groupPhoto.jpg
 caption: "2023 Group Photo"
 order: 1
