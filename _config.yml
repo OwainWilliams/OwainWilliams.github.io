@@ -19,3 +19,6 @@ gems:
 
 #Others
 markdown: kramdown
+
+plugins:
+  - jekyll-feed
