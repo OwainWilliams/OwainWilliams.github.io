@@ -3,7 +3,7 @@ layout: post
 title:  "Owain Williams"
 tag: attendee
 image: /uploads/album/owainWilliams.jpg
-twitter: @owaincodes
+twitter: owaincodes
 
 ---
 
