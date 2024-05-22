@@ -59,6 +59,15 @@
     <p>
       If you would like to update your profile - Pull requests are welcomed via <a href="https://github.com/OwainWilliams/OwainWilliams.github.io">Github</a>
     </p>
+    <h3>New arrivals for 2024</h3>
+    <div class="attendee-list">
+      {% for post in site.posts %}
+        {% if post.tags contains "attendee-2024"%}
+        {% include page-image-attendee.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <p>Below are the attendees from the original Secret Stage</p>
     <div class="attendee-list">
       {% for post in site.posts %}
         {% if post.tags contains "attendee"%}
