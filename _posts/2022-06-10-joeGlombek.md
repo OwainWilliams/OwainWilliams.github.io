@@ -3,10 +3,11 @@ layout: post
 title:  "Joe Glombek"
 tag: attendee
 image: /uploads/album/joeGlombek.jpg
-twitter: joeglombek
-
+mastodon_user: joe
+mastodon_server: umbracocommunity.social
+mastodon_user_id: 110588598848640615
 ---
 
-![]({{page.image}})
+![{{page.title}} as a Minifigure]({{page.image}})
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/{{page.twitter}}.svg?style=social&label=Follow%20%40{{page.twitter}})](https://twitter.com/{{page.twitter}})
+[![Follow @{{page.mastodon_user}}@{{page.mastodon_server}}](https://img.shields.io/mastodon/follow/{{page.mastodon_user_id}}?logo=mastodon&domain=https://{{page.mastodon_server}}&label=Follow%20%40{{page.mastodon_user}}%40{{page.mastodon_server}})](https://{{page.mastodon_server}}/@{{page.mastodon_user}})
